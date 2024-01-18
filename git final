@@ -1,0 +1,19 @@
+question = "Prevention of postoperative thrombosis consists in"
+
+answer_choices = {
+    'A': "Strict bed rest",
+    'B': "Application of cupping massage on the chest",
+    'C': "The use of salt blood substitutes",
+    'D': "Active postoperative management of the patient, the use of anticoagulants (Correct Answer)",
+    'E': "Bandaging"
+}
+
+correct_answer = 'D'
+
+# Checking if the selected answer is correct
+selected_answer = input("Enter your choice (A, B, C, D, or E): ").upper()
+
+if selected_answer == correct_answer:
+    print("Correct!")
+else:
+    print(f"Sorry, the correct answer is {correct_answer}: {answer_choices[correct_answer]}")
